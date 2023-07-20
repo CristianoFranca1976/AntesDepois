@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#container {
+
+    
+    display: flex;
+    
+    width: 1231px;
+    height: 815px;
+}
+
+.img {
+    
+    width: 615px;
+    height: 815px;
+    margin: 0;
+}
+
+.img1 {
+    width: 1231px;
+    height: 815px;
+}
+
+.scan-line {
+    
+    position: absolute;
+    width: 8px;
+    height: 815px;
+    margin-left: 612px;
+    background: #FFF;
+    z-index: 2;
+
+}
+
+
+button {
+    width: 80px;
+    height: 80px;
+    background-image: url(assets/Exclude.svg);
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: -35px;
+    top: 368px; 
+    cursor: pointer;
+}
